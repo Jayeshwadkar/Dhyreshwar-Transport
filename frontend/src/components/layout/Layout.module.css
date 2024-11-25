@@ -1,0 +1,71 @@
+body {
+  padding-top: 50px;
+  background-color: rgb(219,235,250);
+  font-family: Verdana, Arial !important;
+}
+.thc {
+  background-color: #006699;
+}
+label {
+  color: rgb(0, 125, 215) !important;
+  /* font-weight: bold; */
+}
+.MuiFormControl-root{
+  background-color: #fff !important;
+}
+
+.css-dxqlpb-MuiPaper-root {
+  background-color: transparent !important;
+}
+.main {
+  width: 100%;
+  float: left;
+  margin: auto;
+  padding: 15px;
+  min-height: calc(100vh - 138px);
+  background-color: rgb(219,235,250);
+}
+
+
+.show-menu .left-panel nav::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.show-menu .left-panel::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.show-menu .left-panel nav::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.show-menu .left-panel nav:horizontal {
+  height: 5px;
+}
+
+body {
+  scrollbar-width: thin;
+  /* scrollbar-color: #90A4AE #CFD8DC; */
+}
+
+.show-menu .left-panel nav::-webkit-scrollbar-track {
+  background: transparent !important;
+  border-radius: 6px;
+  height: 5px;
+}
+
+.show-menu .left-panel nav::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 6px;
+  border: 1px solid #eaeaea;
+  min-height: 40px;
+  max-height: 80px;
+}
+
+.show-menu .left-panel nav::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+

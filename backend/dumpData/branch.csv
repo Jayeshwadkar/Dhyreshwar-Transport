@@ -1,0 +1,6 @@
+BranchID,branchCode,abbreviation,name,description,place,printer,OpeningBalance,BalType
+1,PI,MKT,"Market Yard, Pune","Market Yard, Pune",1,4,NULL,1
+2,PII,KSH,Khed Shivapur,Khed Shivapur,1,2,NULL,1
+3,KI,GSH,Gokul Shirgaon,Gokul Shirgaon,2,2,NULL,1
+4,KII,SHR,Shiroli,Shiroli,2,2,NULL,1
+5,SI,SNG,Sangli,Sangli,3,2,106387.00,1

@@ -1,0 +1,4 @@
+EmployeeID,EmployeeCode,name,correspondenceAddress,permanentAddress,TelephoneNo,mobile,email,dateOfBirth,joiningDate,qualification,bloodGroup,designation,ImagePath
+1,DTP/2012/EMP-1,SANJAY JAGDALE,pune,,2024264693,9822015672,Jagdalesanju@yahoo.co.in,57:29.0,57:29.0,12th,8,1,NULL
+5,DTP/2012/EMP-5,GANESH LAVANGARE,Pune,,24264693,9767409090,ganeshlavangare@yahoo.com,57:17.0,57:17.0,12th pass,7,2,NULL
+14,DTP/2012/EMP-6,VAISHALI BURUK,Pune,Pune,9822060439,,,NULL,04:00.0,,2,3,NULL

@@ -1,0 +1,315 @@
+/* Default styles */
+.loginp {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  /* Make it take full height */
+}
+
+.loginPage {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem 10%;
+  background-image: url('../../../assets/login-design_ver_01_bkup.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* height: 90vh; */
+  flex: 1;
+}
+
+@media screen and (max-height: 605px) {
+  .loginPage {
+    padding: 3rem 10%;
+  }
+}
+
+.sectionimage {
+  background-image: url("../../../assets/login-design_ver_01_bkup.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.loginImage {
+  max-width: 25%;
+  max-height: 80px;
+  margin: 0 auto;
+  margin-top: -27px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-top: 10px;
+  color: #333;
+  font-weight: bold;
+}
+
+.manageAccount {
+  width: 50%;
+  font-size: small;
+  color: white;
+  margin-top: 7rem;
+}
+
+.manageAccount img {
+  max-width: 100%;
+  height: auto;
+}
+
+.loginContainer {
+  width: 40%;
+  margin-top: 6.25rem;
+}
+
+.loginForm {
+  width: 90%;
+  max-width: 31.25rem;
+  /* 500px converted to rem */
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  min-height: 400px;
+  /* 450px */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -110px;
+  /* -100px */
+}
+
+h2 {
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.formGroup {
+  margin-bottom: 1.5625rem;
+  /* 25px */
+}
+
+input {
+  width: 80%;
+  padding: 0.625rem;
+  /* 10px */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  /* 16px */
+}
+
+input::placeholder {
+  color: #888;
+  font-size: 1rem;
+  /* 16px */
+}
+
+.loginButton {
+  width: 80%;
+  max-width: 6.25rem;
+  /* 100px */
+  padding: 0.8rem;
+  background-color: #ffa500;
+  color: white;
+  border: none;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.topLeftImage {
+  position: absolute;
+  top: 0;
+  left: 5%;
+  height: 6.375rem;
+  width: 10.375rem;
+  border-radius: 0 0 6px 6px;
+  /* 150px */
+}
+
+form {
+  text-align: center;
+}
+
+.loginButton:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.manageAccount h1 {
+  font-size: 2.1rem;
+  margin: 0;
+  letter-spacing: -0.025em !important;
+  margin-bottom: 1rem;
+  /* 20px */
+  font-weight: bold;
+}
+
+.space {
+  margin-bottom: 1.25rem;
+  /* 20px */
+}
+
+/* Enhanced Media Queries for responsiveness */
+@media screen and (max-width: 1024px) {
+  .loginContainer {
+    width: 50%;
+  }
+
+  .manageAccount {
+    width: 50%;
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .loginPage {
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 2rem;
+  }
+
+  .manageAccount,
+  .loginContainer {
+    width: 100%;
+    margin-top: 1.25rem;
+    /* 20px */
+  }
+
+  .loginButton {
+    width: 100%;
+    max-width: none;
+  }
+
+  .topLeftImage {
+    left: 0;
+    width: 6.25rem;
+    /* 100px */
+  }
+
+  .loginForm {
+    padding: 1rem;
+    /* Reduce padding for smaller screens */
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .formGroup {
+    margin-bottom: 1.25rem;
+    /* 20px */
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .loginPage {
+    padding: 3rem 1rem;
+  }
+
+  .topLeftImage {
+    /* height: 3rem; */
+    width: 5.5rem;
+    /* 80px */
+  }
+
+  .loginButton {
+    padding: 0.75rem;
+  }
+
+  .manageAccount h1 {
+    font-size: 2rem;
+  }
+
+  .manageAccount {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+  }
+
+  h2 {
+    font-size: 1.125rem;
+  }
+
+  .loginImage {
+    max-width: 25%;
+    max-height: 80px;
+    margin: 0 auto;
+    margin-top: -7px;
+  }
+}
+
+.underline {
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+}
+
+.underline::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-color: #bb5b5b;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f1f1f1;
+  font-size: 0.9rem;
+  /* 16px */
+}
+
+.footer a {
+  margin-left: 0.625rem;
+  /* 10px */
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer div {
+    margin-bottom: 10px;
+  }
+}

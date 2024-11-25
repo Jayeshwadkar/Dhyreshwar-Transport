@@ -1,0 +1,13 @@
+﻿UserID,employee,branch,username,password,active,RequestDate,ActiveDate,type
+1,1,1,AdminMKT,Sanjay@24,true,2011-11-11 00:00:00.000,2012-10-05 16:32:26.797,Admin
+2,1,2,AdminKSH,Sanjay@24,true,2011-11-11 00:00:00.000,2012-05-25 10:46:57.423,Admin
+3,1,3,AdminGSH,Sanjay@24,true,2011-11-11 00:00:00.000,2012-08-08 13:41:40.247,Admin
+4,1,4,AdminSHR,Sanjay@24,true,2011-11-11 00:00:00.000,2012-05-25 10:47:47.753,Admin
+5,1,5,AdminSNG,Sanjay@24,true,2011-11-11 00:00:00.000,2012-05-25 10:48:07.037,Admin
+6,1,NULL,SuperAdmin,Shubham@2100,true,2011-11-11 00:00:00.000,2013-08-10 19:57:21.750,superadmin
+9,5,1,ganeshmkt,ganesh999,true,2012-05-25 18:10:56.490,2012-10-06 15:59:59.113,User
+10,14,1,madhuri,1234,true,2012-10-05 16:40:18.783,2018-06-20 20:26:36.727,User
+11,14,1,pv_thakar,rtz2688,false,2015-06-19 13:24:22.743,2015-06-19 13:24:22.800,User
+12,1,1,Sanjay Jagdale,1234,false,2017-09-17 14:42:49.260,2017-09-17 14:42:49.273,User
+13,1,3,Test,test,false,2018-05-17 20:54:08.543,2018-05-17 20:54:08.567,User
+14,5,1,admin,dtc123,false,2019-05-22 13:30:46.440,2019-05-22 13:30:46.617,Admin
